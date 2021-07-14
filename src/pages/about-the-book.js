@@ -49,32 +49,29 @@ const ATB = (props) => {
                                         </p>
 
                                         <p>
-                                        R. Michael served as a missionary 11 years and afterward in the United States Army for 14 more. He studied at many technical schools and colleges, eventually earning a medical certificate, a B.S. Psy and M.A. Ed. (Leadership). His tumultuous upbringing in the ghettos of Los Angeles, CA. and training as an embedded missionary color his views of the world, religion and politics.
+                                        The Boundary Waters chronicles the unfolding and sometimes comic relationship between Raymona Washington Goldberg, an African American woman adopted as an infant by Jewish parents during a Freedom Ride in the 1960's and Matthew Pierson a gay man who geographically lives in Minneapolis but psychically inhabits a world of romantic fantasies. She spends her time barricaded in her Upper East Side Apartment in New York City, afraid to be contaminated by the stories lurking in the most common circumstances. Matthew distracts himself with romantic stories in which he becomes entangled. Their phone conversations provide a hygienic boundary through which Raymona experiences the world and Matthew has an audience
                                         </p>
 
                                         <p>
-                                        His stories tell the tale of historic events through fiction, exploiting what he considers a whole in history.
+                                        Their relationship takes a dramatic turn when Matthew entangles himself with three other gay men who are going to The Boundary Waters in Minnesota. One of the men is at the end stage of AIDS. Matthew is quite suddenly captured in an adventure in which wishful happy endings lose all meaning.
                                         </p>
 
                                         <p>
-                                        The descendants of King Solomon's first born by the Queen of Sheba, vanish for 400 years.
+                                        Not only does the boundary between Raymona and Matthew start shifting, but both characters begin exploring the carefully guarded boundaries in their own lives. Their stories interact in a kind of synchrony as they stumble through the comedy and heartbreak of the human condition.
                                         </p>
 
-                                        <p>
-                                        R. Michael's fictitious world speculates why and how the heirs to the throne of Solomon and Kingdom of Sheba exist and operate today.
-                                        </p>
-                                                
+                                                                                        
                                     `,
 
                                 ebooks: {
                                     // stratton: 'https://www.stratton-press.com/books/true-crime-cases/',
-                                    // barnes: 'https://www.barnesandnoble.com/w/true-crime-cases-ron-rupert/1136287286?ean=9781643457864',
+                                    barnes: 'https://www.barnesandnoble.com/w/the-boundary-waters-gerry-huerth/1139432267?ean=9781648953958',
                                     amazon: 'https://www.amazon.com/Boundary-Waters-Quantum-Adventure-ebook/dp/B094GFXM3F/ref=sr_1_1?dchild=1&keywords=9781648953958&qid=1623260949&sr=8-1',
                                 },
                                 paperback: {
                                     amazon: 'https://www.amazon.com/Boundary-Waters-Quantum-Adventure/dp/1648953948/ref=sr_1_1?keywords=9781648953941&qid=1623260955&sr=8-1',
                                     barnes: 'https://www.barnesandnoble.com/w/the-boundary-waters-gerry-huerth/1139432267?ean=9781648953941',
-                                    booksamillion: 'https://www.booksamillion.com/search?filter=&id=8258036461372&query=9781648953941',
+                                    booksamillion: 'https://www.booksamillion.com/p/Boundary-Waters/Gerry-Huerth/9781648953941?id=8258036461372',
                                 },
                              
                             }}

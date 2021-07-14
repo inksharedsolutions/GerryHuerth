@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Layout>
       <Helmet title="Home | Gerry Huerth"/>
       <Nav />
-      <Banner /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <Banner /><br /><br /><br /><br /><br />
       <MidBook />
       <Author />
      
