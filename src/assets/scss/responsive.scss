@@ -27,27 +27,33 @@
 @media screen and (min-width : 1200px) {
     body {
         font-size: 18px;
+    }.banner-section{
+    &:after{
+        height: 800px;
     }
+}
+}
+@media screen and (max-width: 1024px) {
+    .banner-section{
+        &:after{
+            height: 80vh;
+        }
+    }
+    
 }
 
 @media screen and (max-width : 990px) {
-    .contentBook{
-        padding: 20px;
-        h1{
-            text-align:center;
-        }
-        .sub-heading{
-            text-align: center;
-        }
-
-          
-
-    }
 
     .banner-text {
         p {
             text-align: center;
-            line-height: 2;
+            line-height: 1.0;
+        }
+        .right-sub-text{
+            span{
+                font-size: 120px;
+                
+            }
         }
     }
 
@@ -215,10 +221,8 @@
 
     .upper-main {
 
-        padding: 10% 0;
-        P{
-            text-align: justify;
-        }
+        // padding: 10% 0;
+        padding-top: 30%;
 
         h1 {
             font-size: 2.5em;
@@ -256,11 +260,8 @@
 
     .content-wraps {
         order: 2;
-        text-align: center;
-        p{
-            text-align: justify;
-            padding: 10px;
-        }
+        text-align: justify;
+        padding: 0% 10px;
 
         button {
             margin: 0 auto;
@@ -327,14 +328,16 @@
 }
 
 @media screen and (max-width: 650px) {
-   
 
     .grid-template-four-col {
         grid-template-columns: 1fr 1fr;
     }
 
     .banner-section {
-        height: 90vh !important;
+        height: 70vh !important;
+        &::after{
+            height: 700px;
+        }
     }
 
     .f-letter-elem {
@@ -346,7 +349,6 @@
         h1 {
             font-size: 2.5em !important;
         }
-        
     }
 
     .wrapperMain {
@@ -360,12 +362,6 @@
     .body-author-contents {
         padding: 16px !important;
         margin: 0;
-        .heading-quote{
-            text-align: justify;
-        }
-        .article-section{
-            text-align: justify;
-        }
     }
 
     body {
@@ -465,7 +461,9 @@
         margin: 0 auto;
     }
 
+
     .book-wraps {
+        padding-top: 90px;
         img {
             width: 100%;
         }
@@ -486,7 +484,16 @@
 }
 
 @media screen and (max-width: 550px) {
-
+.banner-text{
+    h1{
+        font-size: 80px;
+    }
+    .right-sub-text{
+        span{
+            font-size: 80px;
+        }
+    }
+}
     .mid-main {
         padding: 20% 0 !important;
     }
@@ -555,23 +562,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
-    
-    .contentBook{
-        padding: 15px;
-        h1{
-            text-align:center;
-        }
-        .sub-heading{
-            text-align: center;
-        }
-
-          
-
-    }
-    .fullSection{
-        padding: 20px;
-    }
+@media screen and (max-width: 450px) { 
 
     .banner-text{
         padding: 0 5px;
@@ -651,22 +642,33 @@
 //  #disqus_thread{
 //      padding: 25px;
 //  }
-.flexMainContainer{
-    .flex-container-fx {
-        padding: 0 20px;
-    }
-   
-    .contactMessage{
-        font-size: 25px;
+.banner-section{
+    &:after{
+        height: 600px;
     }
 }
- 
     .banner-text{
         h1{
-            font-size: 30px;
+            font-size: 50px;
+        }
+        .right-sub-text{
+            span{
+                font-size: 60px;
+                line-height: 1.2;
+            }
         }
     }
-
+    .upper-main{
+        p{
+            text-align: justify;
+        }
+    }
+    .body-author-contents{
+        text-align: justify;
+    }
+.book-container-ft{
+    padding: 0% 10px;
+}
     .book-trailer{
         h1 {
             font-size: 3em !important;
