@@ -1,6 +1,18 @@
 /*
 * Responsive Media Queries
 */
+
+
+@media screen and (max-width: 1366px){
+    .banner-text {
+        top: 5rem;
+    }
+
+    .upper-main{
+        padding-top: 20rem;
+    }
+}
+
 @media screen and (max-width : 1350px) {
     .flex-container {
         h1 {
@@ -32,6 +44,8 @@
         height: 800px;
     }
 }
+
+    
 }
 @media screen and (max-width: 1024px) {
     .banner-section{
