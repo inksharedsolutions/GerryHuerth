@@ -5,7 +5,7 @@ import AuthorImg from '../static/author/dummy-profile.jpg'
 const Author = () => {
     return (
         <>
-            <section className="upper-main" id="main-upper-author">
+            <section className="author" id="main-upper-author">
                 <div className="grid-two-columns">
 
                     <div className="grid-child" id="wrapper-heading-content">

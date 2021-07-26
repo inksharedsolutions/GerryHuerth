@@ -5,7 +5,7 @@ import FrontBook from '../static/book/hardcover1.png'
 const MidBook = (props) => {
     return (
         <>
-            <section className="upper-main">
+            <section className="upper-main ">
                 <div className="container-gt separator-line">
 
                     <div className="grid-two-columns" id="wrapper-two-books" >

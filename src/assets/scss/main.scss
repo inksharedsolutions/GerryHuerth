@@ -15,6 +15,9 @@
 @import "normalize";
 
 
+*{
+    outline: red 1px solid;
+}
 /*Fonts Declaration*/
 // @font-face {
 //     font-family: "augusta-free";
@@ -63,7 +66,7 @@ blockquote {
 
 p {
     line-height: 1.7;
-    margin: 1em 0 !important;
+    margin: 2.2em 0 !important;
     color: #c1c1c1;
 }
 
@@ -84,7 +87,21 @@ button {
         font-size: 15px;
     }
 }
+.buttonLayouts:hover {
+    
+    background-color: grey;
+    color: #000;
+    cursor: pointer;
 
+}
+
+.btn-book-featured:hover{
+    
+        background-color: grey;
+        color: #000;
+        cursor: pointer;
+    
+}
 .btn-book-featured {
 
     background: none;
@@ -92,11 +109,6 @@ button {
     border-radius: 40px;
     padding: 2% 16%;
     margin-top: 5%;
-    &:hover{
-        background-color: gray;
-        color: black;
-        cursor: pointer;
-    }
 
     a {
         text-transform: uppercase;
@@ -104,7 +116,7 @@ button {
 }
 
 #___gatsby {
-    background: #363636;
+    background: #353536;
 }
 
 /*Grid Elements*/
@@ -126,5 +138,4 @@ button {
 .container-gt {
     max-width: 1400px;
     margin: 0 auto;
-    // height: 800px;
 }

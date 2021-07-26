@@ -34,8 +34,8 @@
 .upper-main {
 
 
-    padding: 7% 0;
-    padding-top: 13rem;
+    padding: 6% 0;
+    padding-top: 250px;
     text-align: center;
     position: relative;
     z-index: 2;
@@ -61,10 +61,39 @@
         align-items: center;
         text-align: left;
 
+    }
+}
+.author{
+
+
+    padding: 6% 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+
+    h1 {
+        font-size: 3.5em;
+        text-transform: uppercase;
+        font-weight: 900;
+        color: #fff !important;
+    }
+
+    .middle-params {
+        width: 70%;
+        margin: 0 auto !important;
+    }
+
+    #wrapper-two-books {
+
+        margin: 5% 0;
+        gap: 3em;
+        max-width: 1200px;
+        margin: 0 auto;
+        align-items: center;
+        text-align: left;
 
     }
 }
-
 
 .mid-main {
     text-align: center;
@@ -206,7 +235,7 @@
     span {
 
         &:nth-child(2) {
-            // font-family: 'Great Vibes', cursive;
+            font-family: 'Great Vibes', cursive;
             text-transform: capitalize !important;
         }
     }
@@ -219,16 +248,18 @@
     padding: 2% 16%;
     margin-top: 5%;
     color: white !important;
-    &:hover{
-        background-color: gray;
-        color: black;
-        cursor: pointer;
-    }
 
     a {
         text-transform: uppercase;
     }
 }
+.btn-book-featured:hover {
+    background-color: grey;
+    color: #000;
+    cursor: pointer;
+}
+    
+
 
 .author-tagline {
     display: block;
